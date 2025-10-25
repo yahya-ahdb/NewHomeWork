@@ -1,0 +1,168 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: right;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.apps-section {
+  margin: 20px;
+}
+
+.apps-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.apps-table th,
+.apps-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.details-row {
+  display: none;
+}
+
+input[type="text"],
+input[type="url"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.radio-group {
+  margin: 10px 0;
+}
+
+.radio-group label {
+  margin-right: 15px;
+  font-weight: normal;
+}
+
+.form-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-buttons button[type="submit"] {
+  background-color: #003a82;
+  color: white;
+}
+
+.form-buttons button[type="reset"] {
+  background-color: #6c757d;
+  color: white;
+}
+
+.details-content {
+  padding: 20px;
+  background-color: #fafafa;
+  border-top: 2px solid #ddd;
+  text-align: left;
+}
+
+.details-content img {
+  max-width: 100px;
+  margin-top: 10px;
+}
+
+.details-content audio {
+  margin-top: 10px;
+}
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+nav a.active,
+nav a:hover {
+  background-color: #003a82;
+  border-radius: 6px;
+}
+
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #004aad;
+  border-bottom: 2px solid #004aad;
+  padding-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

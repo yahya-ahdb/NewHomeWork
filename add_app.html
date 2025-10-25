@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>إضافة تطبيق جديد</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="myFunctions.js"></script>
+  </head>
+  <body dir="rtl" >
+    <header>
+      <h1>تطبيقات الذكاء الاصطناعي</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html" class="active">الرئيسية</a></li>
+          <li><a href="aboutus.html">من نحن</a></li>
+          <li><a href="apps.html">التطبيقات</a></li>
+          <li><a href="add_app.html">اضافة تطبيق</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form id="appForm">
+        <label
+          >اسم التطبيق:
+          <input placeholder="اسم التطبيق" type="text" name="appName" /></label
+        ><br />
+        <label
+          >الشركة المطورة:
+          <input
+            placeholder="الشركة المطورة"
+            type="text"
+            name="company" /></label
+        ><br />
+        <label
+          >رابط الموقع:
+          <input
+            placeholder="https://website.com"
+            type="url"
+            name="website" /></label
+        ><br />
+        <label>
+          مجاني/غير مجاني:
+          <select name="free">
+            <option value="free">مجاني</option>
+            <option value="not_free">غير مجاني</option>
+          </select> </label
+        ><br />
+        <label>
+          مجال الاستخدام:
+          <select name="domain">
+            <option value="Education">Education</option>
+            <option value="Ecommerce">E-Commerce</option>
+            <option value="Robotics">Robotics</option>
+            <option value="Art & Design">Art & Design</option>
+          </select> </label
+        ><br />
+        <label>
+          شرح مختصر:<br />
+          <textarea name="description"></textarea></label
+        ><br /><br />
+        <button type="submit">إرسال</button>
+        <button type="reset">إعادة</button>
+      </form>
+    </main>
+  </body>
+</html>
